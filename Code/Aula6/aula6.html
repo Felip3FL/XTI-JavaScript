@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>JavaScript Aula 6</title>
+    <style type="text/css">
+        body {background-color:#fff;}
+    </style>
+    <script type="text/javascript">
+        function ligar(){
+            var nome1 = "f'e'l'i'p'e   ";
+            var nome2 = "f\"elipe   ";
+            var nome3 = "felipe\nlima   ";
+            var nome4 = "felipe\u7231   ";
+            
+
+            document.write(nome1);
+            document.write(nome2);
+            document.write(nome3);
+            document.write(nome4);
+
+
+            var variavelUndefined;
+            var variavelNull = null;
+            var variavelNaN = 3 * "olaPessoas";
+            var variavelInfinity = 1.7976931348623157e+308; //maior numero que o javascript consegue amarzena
+            var variavelInfinity = 2 + Infinity; //esse infinity é uma constante
+
+            const HORAS_DO_DIA = 24; //Constante
+
+
+            document.write(variavelUndefined);
+            document.write(variavelNull);
+            document.write(variavelNaN);
+            document.write(variavelInfinity);
+            document.write(HORAS_DO_DIA);
+
+            // window.document.getElementById("lampada").src="on.png";
+        }
+    </script>
+</head>
+<body onload="ligar();">
+    
+</body>
+</html>

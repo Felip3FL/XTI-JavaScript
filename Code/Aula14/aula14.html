@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>JavaScript Aula 14</title>
+
+    <link rel="stylesheet" type="text/css" href="css/aula14.css" media="all" />
+    <script type="text/javascript" src="js/aula14.js"></script>
+
+</head>
+<body>
+    
+    <form id="formulario">
+        <fieldset>
+            <legend>Cálculo do IMC</legend>
+
+            <label for="Kilos">Kilos:</label>
+            <input type="text" name="kilos"/>
+            <br>
+
+            <label for="Metros">Metros:</label>
+            <input type="text" name="metros"/>
+            <br>
+
+            <label for="Centimetros">CM:</label>
+            <input type="text" name="centimetros"/>
+            <br>
+
+            <label for="Imc">IMC:</label>
+            <input type="text" name="imc" disabled="disabled"/>
+            <br>
+
+            <!-- A é a tag para criar links -->
+            <a href="#" onclick="calcularICM();" >Calcular</a>
+
+        </fieldset>
+    </form>
+
+</body>
+</html>

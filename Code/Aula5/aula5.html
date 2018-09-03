@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>JavaScript Aula 5</title>
+    <style type="text/css">
+        body {background-color:#000;}
+        #lampada { display:block; margin:20px auto; }
+    </style>
+    <script type="text/javascript">
+        function ligar(){
+            var nome = "felipe";
+            var idade = 24;
+            var ssj = false;
+
+            alert(nome);
+
+            window.document.getElementById("lampada").src="on.png";
+        }
+    </script>
+</head>
+<body>
+    <img id="lampada" onclick="ligar();" src="off.jpg" height="200" width="150" />
+</body>
+</html>

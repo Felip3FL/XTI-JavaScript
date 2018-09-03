@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>JavaScript Aula 4</title>
+    <style type="text/css">
+        body {background-color:#000;}
+        #lampada { display:block; margin:20px auto; }
+    </style>
+    <script type="text/javascript">
+        function ligar(){
+            window.document.getElementById("lampada").src="on.png";
+        }
+        function desligar(){
+            window.document.getElementById("lampada").src="off.jpg";
+        }
+    </script>
+</head>
+<body onload="alert('carregado');">
+    <!--<img id="xti" onclick="alert('Ola');" src="win.jpg" />-->
+    <img id="lampada" onmouseover="ligar();" onmouseout="desligar();" src="off.jpg" height="200" width="150" />
+</body>
+</html>
